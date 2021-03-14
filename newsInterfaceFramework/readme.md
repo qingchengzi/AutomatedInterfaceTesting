@@ -10,14 +10,14 @@
   从Excel表格中读取测试脚本，后台通过requests模块发送请求，获取响应。 使用pytest框架进行断言，生成测试报告，可以将测试报告通过邮件发送。
 
 目录介绍：
-  conf---> settings.py 配置文件目录
-  data---> 存放excel类型的接口测试用例 
-  debugcode-->开发过程中写测试一些调试代码 
-  logs --> 日志目录 
-  report --> 测试报告
-  utils --> 存放公共工具类的包 
-  pytest.ini --> pytest配置文件 
-  start.py 执行入口
+  conf---> settings.py 配置文件目录。
+  data---> 存放excel类型的接口测试用例 。
+  debugcode-->开发过程中写测试一些调试代码。
+  logs --> 日志目录。
+  report --> 测试报告。
+  utils --> 存放公共工具类的包。
+  pytest.ini --> pytest配置文件。
+  start.py 执行入口。
 
 安装教程
   需安装第三方模块：pytest、allure-pytest、xlrd==1.2.0、requests
