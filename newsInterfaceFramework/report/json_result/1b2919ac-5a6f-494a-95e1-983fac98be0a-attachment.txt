@@ -1,0 +1,3 @@
+INFO     接口测试:test_case.py:21 正在进行断言
+INFO     接口测试:RequestsHandler.py:36 正在向http://www.neeo.cc:6002/pinter/com/getSku发送请求,{'case_num': 'neeo_006', 'title': '查询库存', 'url': 'http://www.neeo.cc:6002/pinter/com/getSku', 'method': 'get', 'params': '{"id":1}', 'data': '', 'json': '', 'cookies': '', 'headers': '', 'except': '{"code":"0","message":"success"}'}
+INFO     接口测试:test_case.py:31 完成断言,{'code': '0', 'message': 'success'}-{'code': '0', 'message': 'success', 'data': {'skuId': 1, 'skuName': 'ptest-1', 'price': '102', 'stock': 824, 'brand': 'testfan'}}

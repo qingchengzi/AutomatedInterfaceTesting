@@ -1,0 +1,3 @@
+INFO     接口测试:test_case.py:21 正在进行断言
+INFO     接口测试:RequestsHandler.py:36 正在向http://www.neeo.cc:6002/pinter/bank/api/login发送请求,{'case_num': 'neeo_003', 'title': 'cookies_登录', 'url': 'http://www.neeo.cc:6002/pinter/bank/api/login', 'method': 'post', 'params': '', 'data': '{"userName":"admin","password":"1234"}', 'json': '', 'cookies': '', 'headers': '', 'except': '{"code":"0","message":"success"}'}
+INFO     接口测试:test_case.py:31 完成断言,{'code': '0', 'message': 'success'}-{'code': '0', 'message': 'success', 'data': None}

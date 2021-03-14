@@ -1,0 +1,78 @@
+{
+  "uid" : "6d9e1d5ac78167f8",
+  "name" : "token_登录",
+  "fullName" : "scripts.test_case.TestCase#test_case",
+  "historyId" : "597b88e1b3d3d5292909b279b1c69024",
+  "time" : {
+    "start" : 1615541368607,
+    "stop" : 1615541370559,
+    "duration" : 1952
+  },
+  "description" : "<b style='color:red'>请求的url:</b>http://www.neeo.cc:6002/pinter/bank/api/login2<hr /><b style='color:red'>预期值:</b>{\"code\":\"0\",\"message\":\"success\"}<hr /><b style='color:red'>实际执行结果:</b>{'code': '0', 'message': 'success', 'data': '7a3585b1a4644041b40f9b6c274dc6c1'}<hr />",
+  "descriptionHtml" : "<p><b style='color:red'>请求的url:</b>http://www.neeo.cc:6002/pinter/bank/api/login2<hr /><b style='color:red'>预期值:</b>{&quot;code&quot;:&quot;0&quot;,&quot;message&quot;:&quot;success&quot;}<hr /><b style='color:red'>实际执行结果:</b>{'code': '0', 'message': 'success', 'data': '7a3585b1a4644041b40f9b6c274dc6c1'}<hr /></p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<b style='color:red'>请求的url:</b>http://www.neeo.cc:6002/pinter/bank/api/login2<hr /><b style='color:red'>预期值:</b>{\"code\":\"0\",\"message\":\"success\"}<hr /><b style='color:red'>实际执行结果:</b>{'code': '0', 'message': 'success', 'data': '7a3585b1a4644041b40f9b6c274dc6c1'}<hr />",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "231f85b467f54fb1",
+      "name" : "log",
+      "source" : "231f85b467f54fb1.txt",
+      "type" : "text/plain",
+      "size" : 612
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "tian"
+  }, {
+    "name" : "thread",
+    "value" : "48388-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "item",
+    "value" : "{'case_num': 'neeo_001', 'title': 'token_登录', 'url': 'http://www.neeo.cc:6002/pinter/bank/api/login2', 'method': 'post', 'params': '', 'data': '{\"userName\":\"admin\",\"password\":\"1234\"}', 'json': '', 'cookies': '', 'headers': '', 'except': '{\"code\":\"0\",\"message\":\"success\"}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d9e1d5ac78167f8.json",
+  "parameterValues" : [ "{'case_num': 'neeo_001', 'title': 'token_登录', 'url': 'http://www.neeo.cc:6002/pinter/bank/api/login2', 'method': 'post', 'params': '', 'data': '{\"userName\":\"admin\",\"password\":\"1234\"}', 'json': '', 'cookies': '', 'headers': '', 'except': '{\"code\":\"0\",\"message\":\"success\"}'}" ]
+}

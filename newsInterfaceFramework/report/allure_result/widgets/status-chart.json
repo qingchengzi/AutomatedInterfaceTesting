@@ -1,0 +1,111 @@
+[ {
+  "uid" : "3ed94fc7f584cc0f",
+  "name" : "test_case_04",
+  "time" : {
+    "start" : 1615541371233,
+    "stop" : 1615541371233,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d9e1d5ac78167f8",
+  "name" : "token_登录",
+  "time" : {
+    "start" : 1615541368607,
+    "stop" : 1615541370559,
+    "duration" : 1952
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ce52d9e45965ec9",
+  "name" : "cookies_查询余额",
+  "time" : {
+    "start" : 1615541370741,
+    "stop" : 1615541370824,
+    "duration" : 83
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a504527e9a065a02",
+  "name" : "test_case[item1]",
+  "time" : {
+    "start" : 1615541370569,
+    "stop" : 1615541370571,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ce9bf456072af768",
+  "name" : "test_case_01",
+  "time" : {
+    "start" : 1615541371200,
+    "stop" : 1615541371201,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ba25db03edc5f6a",
+  "name" : "test_case_02",
+  "time" : {
+    "start" : 1615541371208,
+    "stop" : 1615541371209,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "af96e130feb40e13",
+  "name" : "cookies_登录",
+  "time" : {
+    "start" : 1615541370653,
+    "stop" : 1615541370737,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73625cfe9d3eb935",
+  "name" : "普通登录",
+  "time" : {
+    "start" : 1615541371076,
+    "stop" : 1615541371185,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c2f0bdd7d6638bc",
+  "name" : "test_case_03",
+  "time" : {
+    "start" : 1615541371228,
+    "stop" : 1615541371228,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac8c81778f7a05f6",
+  "name" : "查询库存",
+  "time" : {
+    "start" : 1615541370963,
+    "stop" : 1615541371062,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4052989d61072cfc",
+  "name" : "下单接口",
+  "time" : {
+    "start" : 1615541370833,
+    "stop" : 1615541370951,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

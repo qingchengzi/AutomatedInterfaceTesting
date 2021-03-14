@@ -1,0 +1,2 @@
+INFO     接口测试:test_case.py:21 正在进行断言
+INFO     接口测试:RequestsHandler.py:36 正在向http://www.neeo.cc:6002/pinter/bank/api/query发送请求,{'case_num': 'neeo_004', 'title': 'cookies_查询余额', 'url': 'http://www.neeo.cc:6002/pinter/bank/api/query', 'method': 'get', 'params': '{"userName":"admin"}', 'data': '', 'json': '', 'cookies': 'neeo_003', 'headers': '', 'except': '{"code":"0","message":"success"}'}

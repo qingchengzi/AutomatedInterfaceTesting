@@ -1,0 +1,160 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "scripts",
+    "children" : [ {
+      "name" : "test_case",
+      "children" : [ {
+        "name" : "token_登录",
+        "uid" : "6d9e1d5ac78167f8",
+        "parentUid" : "d9450da9c5c1c515881f67c88d7d5055",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615541368607,
+          "stop" : 1615541370559,
+          "duration" : 1952
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_num': 'neeo_001', 'title': 'token_登录', 'url': 'http://www.neeo.cc:6002/pinter/bank/api/login2', 'method': 'post', 'params': '', 'data': '{\"userName\":\"admin\",\"password\":\"1234\"}', 'json': '', 'cookies': '', 'headers': '', 'except': '{\"code\":\"0\",\"message\":\"success\"}'}" ]
+      }, {
+        "name" : "test_case[item1]",
+        "uid" : "a504527e9a065a02",
+        "parentUid" : "d9450da9c5c1c515881f67c88d7d5055",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615541370569,
+          "stop" : 1615541370571,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_num': 'neeo_002', 'title': 'token_查询余额', 'url': 'http://www.neeo.cc:6002/pinter/bank/api/query2', 'method': 'get', 'params': '{\"userName\":\"admin\"}', 'data': '', 'json': '', 'cookies': '', 'headers': '{\"testfan-token\":\"${neeo_001>response_json>data}$\"}', 'except': '{\"code\":\"0\",\"message\":\"success\"}'}" ]
+      }, {
+        "name" : "cookies_登录",
+        "uid" : "af96e130feb40e13",
+        "parentUid" : "d9450da9c5c1c515881f67c88d7d5055",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615541370653,
+          "stop" : 1615541370737,
+          "duration" : 84
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_num': 'neeo_003', 'title': 'cookies_登录', 'url': 'http://www.neeo.cc:6002/pinter/bank/api/login', 'method': 'post', 'params': '', 'data': '{\"userName\":\"admin\",\"password\":\"1234\"}', 'json': '', 'cookies': '', 'headers': '', 'except': '{\"code\":\"0\",\"message\":\"success\"}'}" ]
+      }, {
+        "name" : "cookies_查询余额",
+        "uid" : "2ce52d9e45965ec9",
+        "parentUid" : "d9450da9c5c1c515881f67c88d7d5055",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615541370741,
+          "stop" : 1615541370824,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_num': 'neeo_004', 'title': 'cookies_查询余额', 'url': 'http://www.neeo.cc:6002/pinter/bank/api/query', 'method': 'get', 'params': '{\"userName\":\"admin\"}', 'data': '', 'json': '', 'cookies': 'neeo_003', 'headers': '', 'except': '{\"code\":\"0\",\"message\":\"success\"}'}" ]
+      }, {
+        "name" : "下单接口",
+        "uid" : "4052989d61072cfc",
+        "parentUid" : "d9450da9c5c1c515881f67c88d7d5055",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615541370833,
+          "stop" : 1615541370951,
+          "duration" : 118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_num': 'neeo_005', 'title': '下单接口', 'url': 'http://www.neeo.cc:6002/pinter/com/buy', 'method': 'post', 'params': '', 'data': '{\"param\":{\"skuld\":123,\"num\":10}}', 'json': '', 'cookies': '', 'headers': '', 'except': '{\"code\":\"0\",\"message\":\"success\"}'}" ]
+      }, {
+        "name" : "查询库存",
+        "uid" : "ac8c81778f7a05f6",
+        "parentUid" : "d9450da9c5c1c515881f67c88d7d5055",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615541370963,
+          "stop" : 1615541371062,
+          "duration" : 99
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_num': 'neeo_006', 'title': '查询库存', 'url': 'http://www.neeo.cc:6002/pinter/com/getSku', 'method': 'get', 'params': '{\"id\":1}', 'data': '', 'json': '', 'cookies': '', 'headers': '', 'except': '{\"code\":\"0\",\"message\":\"success\"}'}" ]
+      }, {
+        "name" : "普通登录",
+        "uid" : "73625cfe9d3eb935",
+        "parentUid" : "d9450da9c5c1c515881f67c88d7d5055",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615541371076,
+          "stop" : 1615541371185,
+          "duration" : 109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_num': 'neeo_007', 'title': '普通登录', 'url': 'http://www.neeo.cc:6002/pinter/com/login', 'method': 'post', 'params': '', 'data': '{\"userName\":\"${neeo_002>request_params>userName}$\",\"password\":\"${neeo_003>request_data>password}$\"}', 'json': '', 'cookies': '', 'headers': '', 'except': '{\"code\":\"0\",\"message\":\"success\"}'}" ]
+      } ],
+      "uid" : "d9450da9c5c1c515881f67c88d7d5055"
+    }, {
+      "name" : "test_caset_01",
+      "children" : [ {
+        "name" : "test_case_01",
+        "uid" : "ce9bf456072af768",
+        "parentUid" : "1c5332b73687ef899f36986b0562d40b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615541371200,
+          "stop" : 1615541371201,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_case_02",
+        "uid" : "9ba25db03edc5f6a",
+        "parentUid" : "1c5332b73687ef899f36986b0562d40b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615541371208,
+          "stop" : 1615541371209,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_case_03",
+        "uid" : "3c2f0bdd7d6638bc",
+        "parentUid" : "1c5332b73687ef899f36986b0562d40b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615541371228,
+          "stop" : 1615541371228,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_case_04",
+        "uid" : "3ed94fc7f584cc0f",
+        "parentUid" : "1c5332b73687ef899f36986b0562d40b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615541371233,
+          "stop" : 1615541371233,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1c5332b73687ef899f36986b0562d40b"
+    } ],
+    "uid" : "8083a48773cbfbc2897cb0336273acc5"
+  } ]
+}

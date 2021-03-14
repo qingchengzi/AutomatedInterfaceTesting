@@ -1,0 +1,214 @@
+{
+  "67044a3444b3b0893646c004bb4ad45a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ac8c81778f7a05f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615541370963,
+        "stop" : 1615541371062,
+        "duration" : 99
+      }
+    } ]
+  },
+  "597b88e1b3d3d5292909b279b1c69024" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6d9e1d5ac78167f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615541368607,
+        "stop" : 1615541370559,
+        "duration" : 1952
+      }
+    } ]
+  },
+  "27df0627900123920d9c0fba15f7352d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "af96e130feb40e13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615541370653,
+        "stop" : 1615541370737,
+        "duration" : 84
+      }
+    } ]
+  },
+  "e672a245af5fff9723d7828058cd9338" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a504527e9a065a02",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'template_response_json'",
+      "time" : {
+        "start" : 1615541370569,
+        "stop" : 1615541370571,
+        "duration" : 2
+      }
+    } ]
+  },
+  "e6b5e854e0ff6e442608c1d48476e849" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9ba25db03edc5f6a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 0",
+      "time" : {
+        "start" : 1615541371208,
+        "stop" : 1615541371209,
+        "duration" : 1
+      }
+    } ]
+  },
+  "4dc81d14c7ee08e1a779925314a1c80a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c2f0bdd7d6638bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615541371228,
+        "stop" : 1615541371228,
+        "duration" : 0
+      }
+    } ]
+  },
+  "f8e51b8c7975235c69392977d37c15be" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4052989d61072cfc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615541370833,
+        "stop" : 1615541370951,
+        "duration" : 118
+      }
+    } ]
+  },
+  "3273cc42ea88e1df0f04128aa8c7ba18" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce9bf456072af768",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615541371200,
+        "stop" : 1615541371201,
+        "duration" : 1
+      }
+    } ]
+  },
+  "f85d11cb45817a68a7f5c045f034434d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "73625cfe9d3eb935",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615541371076,
+        "stop" : 1615541371185,
+        "duration" : 109
+      }
+    } ]
+  },
+  "d7431b81c185322128949bc8573e1e57" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ed94fc7f584cc0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615541371233,
+        "stop" : 1615541371233,
+        "duration" : 0
+      }
+    } ]
+  },
+  "b55a4bf00ea257eda2592d0a042d0979" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2ce52d9e45965ec9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert not {\"root['code']\": {'new_value': '1', 'old_value': '0'}, \"root['message']\": {'new_value': '用户不合法', 'old_value': 'success'}}\n +  where {\"root['code']\": {'new_value': '1', 'old_value': '0'}, \"root['message']\": {'new_value': '用户不合法', 'old_value': 'success'}} = <built-in method get of DeepDiff object at 0x00000000047B2620>('values_changed', None)\n +    where <built-in method get of DeepDiff object at 0x00000000047B2620> = {'dictionary_item_added': [root['data']], 'values_changed': {\"root['code']\": {'new_value': '1', 'old_value': '0'}, \"root['message']\": {'new_value': '用户不合法', 'old_value': 'success'}}}.get\n +      where {'dictionary_item_added': [root['data']], 'values_changed': {\"root['code']\": {'new_value': '1', 'old_value': '0'}, \"root['message']\": {'new_value': '用户不合法', 'old_value': 'success'}}} = DeepDiff({'code': '0', 'message': 'success'}, {'code': '1', 'data': None, 'message': '用户不合法'})",
+      "time" : {
+        "start" : 1615541370741,
+        "stop" : 1615541370824,
+        "duration" : 83
+      }
+    } ]
+  }
+}

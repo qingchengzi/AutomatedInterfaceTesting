@@ -1,0 +1,78 @@
+{
+  "uid" : "73625cfe9d3eb935",
+  "name" : "普通登录",
+  "fullName" : "scripts.test_case.TestCase#test_case",
+  "historyId" : "f85d11cb45817a68a7f5c045f034434d",
+  "time" : {
+    "start" : 1615541371076,
+    "stop" : 1615541371185,
+    "duration" : 109
+  },
+  "description" : "<b style='color:red'>请求的url:</b>http://www.neeo.cc:6002/pinter/com/login<hr /><b style='color:red'>预期值:</b>{\"code\":\"0\",\"message\":\"success\"}<hr /><b style='color:red'>实际执行结果:</b>{'code': '0', 'message': 'success', 'data': None}<hr />",
+  "descriptionHtml" : "<p><b style='color:red'>请求的url:</b>http://www.neeo.cc:6002/pinter/com/login<hr /><b style='color:red'>预期值:</b>{&quot;code&quot;:&quot;0&quot;,&quot;message&quot;:&quot;success&quot;}<hr /><b style='color:red'>实际执行结果:</b>{'code': '0', 'message': 'success', 'data': None}<hr /></p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<b style='color:red'>请求的url:</b>http://www.neeo.cc:6002/pinter/com/login<hr /><b style='color:red'>预期值:</b>{\"code\":\"0\",\"message\":\"success\"}<hr /><b style='color:red'>实际执行结果:</b>{'code': '0', 'message': 'success', 'data': None}<hr />",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6aa41acbc243ae06",
+      "name" : "log",
+      "source" : "6aa41acbc243ae06.txt",
+      "type" : "text/plain",
+      "size" : 631
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "tian"
+  }, {
+    "name" : "thread",
+    "value" : "48388-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "item",
+    "value" : "{'case_num': 'neeo_007', 'title': '普通登录', 'url': 'http://www.neeo.cc:6002/pinter/com/login', 'method': 'post', 'params': '', 'data': '{\"userName\":\"${neeo_002>request_params>userName}$\",\"password\":\"${neeo_003>request_data>password}$\"}', 'json': '', 'cookies': '', 'headers': '', 'except': '{\"code\":\"0\",\"message\":\"success\"}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "73625cfe9d3eb935.json",
+  "parameterValues" : [ "{'case_num': 'neeo_007', 'title': '普通登录', 'url': 'http://www.neeo.cc:6002/pinter/com/login', 'method': 'post', 'params': '', 'data': '{\"userName\":\"${neeo_002>request_params>userName}$\",\"password\":\"${neeo_003>request_data>password}$\"}', 'json': '', 'cookies': '', 'headers': '', 'except': '{\"code\":\"0\",\"message\":\"success\"}'}" ]
+}

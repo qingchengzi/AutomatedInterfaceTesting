@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "KeyError: 'template_response_json'",
+      "children" : [ {
+        "name" : "test_case[item1]",
+        "uid" : "a504527e9a065a02",
+        "parentUid" : "941ff1e7b1b72cb51152e9c40129ef69",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615541370569,
+          "stop" : 1615541370571,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_num': 'neeo_002', 'title': 'token_查询余额', 'url': 'http://www.neeo.cc:6002/pinter/bank/api/query2', 'method': 'get', 'params': '{\"userName\":\"admin\"}', 'data': '', 'json': '', 'cookies': '', 'headers': '{\"testfan-token\":\"${neeo_001>response_json>data}$\"}', 'except': '{\"code\":\"0\",\"message\":\"success\"}'}" ]
+      } ],
+      "uid" : "941ff1e7b1b72cb51152e9c40129ef69"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert not {\"root['code']\": {'new_value': '1', 'old_value': '0'}, \"root['message']\": {'new_value': '用户不合法', 'old_value': 'success'}}\n +  where {\"root['code']\": {'new_value': '1', 'old_value': '0'}, \"root['message']\": {'new_value': '用户不合法', 'old_value': 'success'}} = <built-in method get of DeepDiff object at 0x00000000047B2620>('values_changed', None)\n +    where <built-in method get of DeepDiff object at 0x00000000047B2620> = {'dictionary_item_added': [root['data']], 'values_changed': {\"root['code']\": {'new_value': '1', 'old_value': '0'}, \"root['message']\": {'new_value': '用户不合法', 'old_value': 'success'}}}.get\n +      where {'dictionary_item_added': [root['data']], 'values_changed': {\"root['code']\": {'new_value': '1', 'old_value': '0'}, \"root['message']\": {'new_value': '用户不合法', 'old_value': 'success'}}} = DeepDiff({'code': '0', 'message': 'success'}, {'code': '1', 'data': None, 'message': '用户不合法'})",
+      "children" : [ {
+        "name" : "cookies_查询余额",
+        "uid" : "2ce52d9e45965ec9",
+        "parentUid" : "c2c4966531499309d9f0885345980f36",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615541370741,
+          "stop" : 1615541370824,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_num': 'neeo_004', 'title': 'cookies_查询余额', 'url': 'http://www.neeo.cc:6002/pinter/bank/api/query', 'method': 'get', 'params': '{\"userName\":\"admin\"}', 'data': '', 'json': '', 'cookies': 'neeo_003', 'headers': '', 'except': '{\"code\":\"0\",\"message\":\"success\"}'}" ]
+      } ],
+      "uid" : "c2c4966531499309d9f0885345980f36"
+    }, {
+      "name" : "AssertionError: assert 0",
+      "children" : [ {
+        "name" : "test_case_02",
+        "uid" : "9ba25db03edc5f6a",
+        "parentUid" : "c9c77d7ae15b4ab6e63220cefc19b68f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615541371208,
+          "stop" : 1615541371209,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c9c77d7ae15b4ab6e63220cefc19b68f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
